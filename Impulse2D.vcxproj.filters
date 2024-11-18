@@ -13,13 +13,34 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Impulse2D">
+      <UniqueIdentifier>{ec17f429-c865-43dc-ae64-07cd3f87ff1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Impulse2D\ForceGenerators">
+      <UniqueIdentifier>{16db072a-58b6-4dea-9f13-48674b72972f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Impulse2D\Core">
+      <UniqueIdentifier>{5f2dded1-7da8-4ca8-ad94-a9ea4a22147e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maths">
+      <UniqueIdentifier>{c69255e0-b827-430c-b256-c57913a6a492}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Vector2.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="ParticleForceGenerator.h">
+      <Filter>Header Files\Impulse2D\ForceGenerators</Filter>
     </ClInclude>
     <ClInclude Include="Particle.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Impulse2D\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleForceRegistry.h">
+      <Filter>Header Files\Impulse2D\ForceGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityForceGenerator.h">
+      <Filter>Header Files\Impulse2D\ForceGenerators</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

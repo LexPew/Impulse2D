@@ -97,6 +97,13 @@ namespace Impulse2D
 		}
 
 		/**
+		 * Returns a bool based on whether the mass is finite aka non-infinite 
+		 */
+		bool HasFiniteMass() const
+		{
+			return InverseMass > 0;
+		}
+		/**
 		 * Directly sets the inverse mass of the object, use with caution
 		 */
 		void SetInverseMass(const float p_newInverseMass)
